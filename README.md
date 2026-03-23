@@ -47,3 +47,7 @@ sudo apt install pandoc
 --reference-doc=OSCP-Exam-Report.docx \
 -o OSCP_Exam_Report.docx
 ```
+
+Example Output .docx:
+<img width="806" height="1045" alt="image" src="https://github.com/user-attachments/assets/e470a088-81b1-4331-96f1-281e5236fb69" />
+
