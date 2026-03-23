@@ -5,7 +5,7 @@ git clone https://github.com/salmonbara/OSCP-Exam-Report-Template-Markdown.git
 cd OSCP-Exam-Report-Template-Markdown/OSCP-Template-Report
 ```
 
-#### **Step 3:** md structure before convert to docx
+#### **Step 2:** md structure before convert to docx
 ```bash
 ┌──(smbr㉿kali)-[~/Desktop/OSCP-Template-Report]
 └─$ tree
@@ -20,12 +20,12 @@ cd OSCP-Exam-Report-Template-Markdown/OSCP-Template-Report
 └──  OSCP-Exam-Report.docx
 ```
 
-#### **Step 2:** Install pandoc package
+#### **Step 3:** Install pandoc package
 ```bash
 sudo apt install pandoc
 ```
 
-#### **Step 3:** Convert all .md to docx file
+#### **Step 4:** Convert all .md to docx file
 ```bash
 # Without template file
 ┌──(smbr㉿kali)-[~/Desktop/OSCP-Template-Report]
