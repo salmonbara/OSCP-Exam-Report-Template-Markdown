@@ -39,11 +39,11 @@ sudo apt install pandoc
 # With offsec template file 
 # Download from https://www.offsec.com/pwk-online/OSCP-Exam-Report.docx
 ┌──(smbr㉿kali)-[~/Desktop/OSCP-Template-Report]
-└─$ pandoc *.md \                                                                  
--f gfm \                               
--V mainfont="Aptos" \                  
--V monofont="Aptos" \                  
---highlight-style=breezedark \         
+└─$ pandoc *.md \
+-f gfm \
+-V mainfont="Aptos" \
+-V monofont="Aptos" \
+--highlight-style=breezedark \
 --reference-doc=OSCP-Exam-Report.docx \
 -o OSCP_Exam_Report.docx
 ```
