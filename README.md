@@ -29,11 +29,11 @@ sudo apt install pandoc
 ```bash
 # Without template file
 ┌──(smbr㉿kali)-[~/Desktop/OSCP-Template-Report]
-└─$ pandoc *.md \                                                                  
--f gfm \                               
--V mainfont="Aptos" \                  
--V monofont="Aptos" \                  
---highlight-style=breezedark \         
+└─$ pandoc *.md \
+-f gfm \
+-V mainfont="Aptos" \
+-V monofont="Aptos" \
+--highlight-style=breezedark \
 -o OSCP_Exam_Report.docx
 
 # With offsec template file 
